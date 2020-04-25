@@ -15,8 +15,7 @@ Use [Google API Console](https://console.developers.google.com/) to create a ser
 To enable read/ write access to any google document, share that document with your service account created.
 
 # Examples
-* list-worksheets.py
-usage: python3 <credentials.json> <sheetname>
+* list-worksheets.py (usage: *python3 credentials.json sheetname*)
 
 This script uses authorize function from utils.py. Dependent libraries: gspread, oauth2client.
 Set PYTHONPATH before executing this script
