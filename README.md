@@ -16,11 +16,14 @@ This function shall be used to authorize the google docs access using the servic
 Refer [gspread APIs](https://gspread.readthedocs.io/en/latest/index.html).
 
 # Examples
-* list-worksheets.py (usage: *python3 credentials.json sheetname*)
-* read-mf-transactions.py (usage: *python3 credentials.json sheetname*)
+* list-worksheets.py (usage: ``python3 credentials.json sheetname``)
+* read-mf-transactions.py (usage: ``python3 credentials.json mfdata-sheet``)
 
 This script uses authorize function from utils.py. Dependent libraries: gspread, oauth2client.
 Set PYTHONPATH before executing this script
+
+# Mutual Fund transaction sheet example
+The module ``mf`` expects the spreadsheet in specific format. Refer the [example sheet](https://docs.google.com/spreadsheets/d/1Caq7fLyZSA56JlLmYQASLlvE9bVfLl9IEltH7xAX9BI/edit?usp=sharing). To enable read/write using service account, share the sheet created with that service account.
 
 # License
 MIT
